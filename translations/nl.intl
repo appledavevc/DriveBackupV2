@@ -5,26 +5,26 @@
 #
 # Nederlandstalige vertaling door: Dave Van Cauwenberghe - appledavevc op GitHub
 
-auto-backups-disabled: "Automatische back-ups zijn uitgeschakeld"
+auto-backups-disabled: "Automatic backups are disabled"
 backup-already-running: |-
-  Er is reeds een back-up bezig
+  A backup is already running
   <backup-status>
-backup-complete: "Back-up voltooid!"
+backup-complete: "Back-up voltooid"
 backup-disabled-inactivity: "Disabling automatic backups due to inactivity"
-backup-empty-list: "De back-uplijst is leeg"
+backup-empty-list: "The backup list is empty"
 backup-failed-absolute-path: |-
   Failed to create a backup, path to folder to backup is absolute, expected a relative path
   An absolute path can overwrite sensitive files, see the docs for more information
   Skipping backup location
-backup-file-upload-complete: 'Upload(s) voor bestand "<file-name>" voltooid'
-backup-file-upload-start: 'Upload(s) voor bestand "<file-name>" gestart'
-backup-forced: "Back-up forceren"
+backup-file-upload-complete: 'Upload voor bestand "<file-name>" geslaagd'
+backup-file-upload-start: 'Upload voor bestand "<file-name>" starten'
+backup-forced: "Manuele back-up forceren"
 backup-list-blacklist-invalid: "Blacklist invalid in backup entry <entry>, leaving blank"
 backup-list-format-invalid: "Format invalid, skipping backup list entry <entry>"
 backup-list-glob-invalid: "Glob invalid, skipping backup list entry <entry>"
 backup-list-no-dest-specified: "No path or glob specified, skipping backup list entry <entry>"
 backup-list-path-invalid: "Path invalid, skipping backup list entry <entry>"
-backup-local-complete: "Lokale back-up voltooid en gecompresseerd"
+backup-local-complete: "Lokale  back-up(s) gecreeërd en gecompresseerd"
 backup-local-failed: |-
   Failed to create local backup
   Even if local-keep-count is set to zero, the plugin needs to temporarily create a local backup
@@ -34,7 +34,7 @@ backup-local-file-start: 'Creating local backup for "<location>"'
 backup-local-prune-complete: "Local backup pruning complete"
 backup-local-prune-start: "Pruning local backups"
 backup-local-start: "Creating local backup(s) and compressing..."
-backup-method-complete: "Backup naar <gold><upload-method></gold> voltooid!"
+backup-method-complete: "Backup to <gold><upload-method></gold> complete"
 backup-method-error-occurred: "Failed to backup to <upload-method>, verify all
   credentials are correct or diagnose the problem with
   <gold><click:run_command:'<diagnose-command>'><diagnose-command></click></gol\
@@ -55,27 +55,27 @@ backup-method-prune-failed: "Failed to delete backups exceeding limit"
 backup-method-shared-drive-prune-failed: |-
   Failed to delete backups exceeding limit
   Try asking the owner of the shared drive to elevate your account's permissions, or set keep-count to 0 to disable deleting backups
-backup-method-upload-failed: "Uploaden mislukt"
-backup-method-uploading: "Back-up uploaden naar <upload-method>"
+backup-method-upload-failed: "Upload mislukt"
+backup-method-uploading: "Bestand uploaden naar <upload-method>"
 backup-no-methods: "No backup method is enabled"
 backup-schedule-day-empty: "Day of week list empty, skipping schedule entry <entry>"
 backup-schedule-day-invalid: 'Day of week invalid, skipping day of week "<day>"'
 backup-schedule-days-invalid: "Days list invalid, skipping schedule entry <entry>"
 backup-schedule-empty: "Backup schedule empty, disabling schedule-based backups"
 backup-schedule-time-invalid: "Time invalid, skipping schedule entry <entry>"
-backup-start: "Backup samenstellen, de server kan tijdelijk wat laggen ..."
+backup-start: "Creating backups, the server may lag for a little while..."
 backup-status-compressing: 'Compressing backup set "<set-name>", set <set-num> of <set-count>'
 backup-status-not-running: "No backups are running"
 backup-status-pruning: "Pruning backups"
-backup-status-starting: "Backup begint"
+backup-status-starting: "Back-up starten"
 backup-status-uploading: 'Uploading backup set "<set-name>", set <set-num> of <set-count>'
 backup-total-time: "Back-up nam <time> seconden in beslag"
-backup-upload-complete: "Back-up(s) uploaden voltooid!"
-backup-upload-start: "Backup(s) uploaden ..."
+backup-upload-complete: "Back-up(s) geüpload"
+backup-upload-start: "Back-up(s) uploaden..."
 backups-interval-scheduled: "Scheduling a backup to run every <delay> minutes"
 backups-scheduled: "Scheduling a backup to run at <time> every <days>"
 brief-backup-list: "DriveBackupV2 will currently back up <list>"
-brief-backup-list-empty: "niks"
+brief-backup-list-empty: "nothing"
 brief-backup-list-external-backups: "some external backups"
 brief-backup-list-help: "Want to back up something else? See
   <gold><click:open_url:https://bit.ly/3xoHRAs>https://bit.ly/3xoHRAs</click></go\
@@ -96,7 +96,7 @@ drivebackup-docs-command: |-
   Discord: <gold><click:open_url:https://bit.ly/3f4VuuT>https://bit.ly/3f4VuuT</click></gold>
 drivebackup-help-command: |-
   <header>
-  <gold><click:run_command:/drivebackup>/drivebackup</click></gold> - Displays this menu
+  <gold><click:run_command:/drivebackup>/drivebackup</click></gold> - Geeft dit menu weer
   <gold><click:run_command:/drivebackup help>/drivebackup help</click></gold> - Displays help resources
   <gold><click:run_command:/drivebackup commands>/drivebackup commands</click></gold> - Displays this command help page
   <gold><click:run_command:/drivebackup v>/drivebackup [v|version]</click></gold> - Displays the plugin version
